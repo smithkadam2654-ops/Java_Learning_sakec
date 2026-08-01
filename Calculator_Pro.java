@@ -34,7 +34,7 @@ class Calculator_Pro extends Addition {
         c.add(20, 10);
         c.sub(20, 10);
         c.mult(20, 10);
-        c.div(20, 10);
+        c.div(20, 0);
         c.rem(21, 10);
         c.pow(2, 3);
         c.sqrt(4);
