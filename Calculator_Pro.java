@@ -13,6 +13,7 @@ class Calculator_Pro extends Addition {
     }
     void div(int a, int b) {
         System.out.println("Division = " + (a / b));
+        System.out.println("Will this be printed?");
     }
      void rem(int a, int b) {
         System.out.println("Remainder = " + (a % b));
@@ -34,7 +35,7 @@ class Calculator_Pro extends Addition {
         c.add(20, 10);
         c.sub(20, 10);
         c.mult(20, 10);
-        c.div(20, 0);
+        c.div(20, 10);
         c.rem(21, 10);
         c.pow(2, 3);
         c.sqrt(4);
