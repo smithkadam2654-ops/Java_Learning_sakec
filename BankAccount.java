@@ -28,16 +28,18 @@ class BankAccount {
     }
 }
 
-class Main {
+class BankExceptionDemo {
 
     public static void main(String[] args) {
 
-        BankAccount account = new BankAccount(5000);
+        BankAccount account = new BankAccount(7000);
 
         try {
-            account.withdraw(6000);
+            account.withdraw(7000);
         } catch (InsufficientBalanceException e) {
-            System.out.println("Exception: " + e.getMessage());
-        }
+            System.out.println("Transaction failed: " + e.getMessage());
+        }        
+
+
     }
 }
