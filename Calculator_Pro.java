@@ -13,7 +13,6 @@ class Calculator_Pro extends Addition {
     }
     void div(int a, int b) {
         System.out.println("Division = " + (a / b));
-        System.out.println("Will this be printed?");
     }
      void rem(int a, int b) {
         System.out.println("Remainder = " + (a % b));
