@@ -7,11 +7,12 @@ class DemoButtonColour {
 
         Button b = new Button("Click");
 
-        b.setBackground(Color.BLUE);   // Button background
-        b.setForeground(Color.WHITE);  // Button text color (optional)
+        b.setBackground(Color.BLUE);
+        b.setForeground(Color.WHITE);
 
         f.add(b);
-        f.setSize(300, 300);
+
+        f.setSize(700, 300);
         f.setVisible(true);
     }
 }
