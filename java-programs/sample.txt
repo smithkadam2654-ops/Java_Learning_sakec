@@ -1,0 +1,5 @@
+Hello World! This is a sample text file.
+Java is a powerful programming language.
+File reading is an essential skill for developers.
+This file demonstrates various file reading techniques.
+Thank you for using FileReaderUtil!
